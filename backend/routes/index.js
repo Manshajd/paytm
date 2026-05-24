@@ -9,10 +9,10 @@ router.use("/user", userRouter);
 
 app.use(router);
 
-app.listen(PORT, function(err){
-    if(err)
-    {
-        console.log(err);
-    }
-    console.log(`app is listening at port ${PORT}`);
-});
+// app.listen(PORT, function(err){
+//     if(err)
+//     {
+//         console.log(err);
+//     }
+//     console.log(`app is listening at port ${PORT}`);
+// });
